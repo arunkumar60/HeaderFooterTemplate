@@ -1,0 +1,35 @@
+.uppercase{
+	text-transform: uppercase;
+}
+.font-bold{
+	font-weight: bold;
+}
+.first-char-upper {
+    text-transform: capitalize;
+}
+.pointer{
+	cursor: pointer;
+}
+.left-align{
+	float:  left;
+}
+.right-align{
+	float: right;
+}
+.mask-enable{
+	display: block;
+	position: fixed;
+	width: 100%;
+	height : 100%;
+	z-index: 5;
+	background-color: grey;
+	left: 0;
+	top: 0;
+	opacity: 0.4;
+}
+.mask-disable{
+	display: none;
+}
+.text-center{
+	text-align: center;
+}

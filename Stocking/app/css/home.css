@@ -1,0 +1,21 @@
+﻿.header-color{
+	background-color: #ff0000;
+}
+.logo-size {
+	font-size: 1.3em;
+}
+.footer-bottom {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+.footer-color{
+	background-color: #ececed;
+}
+.footer-height{
+	height: 8em;
+}
+.font-footer-icon{
+	color: #929292;
+}
