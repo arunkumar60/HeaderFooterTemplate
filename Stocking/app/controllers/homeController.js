@@ -6,12 +6,8 @@ app.controller('homeController', function ($scope,userNamesList,countryList,$roo
     init();
 
     function init() {
-        $("body").addClass("bodyImg");
-        $("body").removeClass("stockDtlsColor");
-    	$scope.userDetails = userNamesList.getUserList();
-        $scope.countryDetails = countryList.getCountryList();
-        $scope.initialVal = "Select User";
-        $scope.initialValCountry = "Select Country";
+       /* angular.element(document.querySelector('#homePage')).addClass('mask-enable');
+        angular.element(document.querySelector('#loaderElement')).removeClass('display-none');*/
     };
      $scope.selectUser = function(userName,userId){
      	$scope.initialVal = userName;

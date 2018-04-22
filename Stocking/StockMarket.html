@@ -10,6 +10,7 @@
     <link href="app/css/common.css" rel="stylesheet" />
     <link href="app/css/stockMarketStyles.css" rel="stylesheet" />
     <link href="app/css/home.css" rel="stylesheet" />
+    <link href="app/css/loader.css" rel="stylesheet" />
 
 </head>
 
@@ -45,6 +46,19 @@
         </div>
     </nav>
     </header>
+    <div class="container display-none" id="loaderElement">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="loader">
+                    <p>Loading...</p>
+                    <div class="loader-inner"></div>
+                    <div class="loader-inner"></div>
+                    <div class="loader-inner"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div ng-view></div>
 
 
     <!--Footer-->

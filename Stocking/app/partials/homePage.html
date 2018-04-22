@@ -1,30 +1,3 @@
-﻿<div class="container-item" ng-controller="homeController">
-   <div class="container">
-       <div class="row">
-           <div class="col-md-12">
-               <div class="wrap">
-                   <form class="login">
-                   <div class="dropdown dropDownBtn margin10">
-                       <button class="btn btn-primary dropdown-toggle ddWidth" type="button" data-toggle="dropdown">{{initialVal}}
-                       <span class="caret ddUserCaret"></span></button>
-                       <ul class="dropdown-menu ddColor">
-                         <li ng-repeat="user in userDetails"><a ng-click="selectUser(user.username,user.userId)">{{user.username}}</a></li>
-                       </ul>
-                   </div>
-                   <div class="dropdown margin10 dropDownBtn">
-                        <button class="btn btn-primary dropdown-toggle ddWidth" type="button" data-toggle="dropdown">{{initialValCountry}}
-                        <span class="caret ddCountryCaret"></span></button>
-                        <ul class="dropdown-menu ddColor">
-                          <li ng-repeat="countryName in countryDetails"><a ng-click="selectCountry(countryName.country)">{{countryName.country}}</a></li>
-                        </ul>
-                    </div>
-                   <div>
-                       <div class="row signIn marginBttom10">
-                           <a href="#/stockListPage"><input type="submit" value="Sign In" class="btn btn-success btn-sm" /></a>
-                       </div>
-                   </form>
-               </div>
-           </div>
-       </div>
-
+﻿<div class="container-item" ng-controller="homeController" id="homePage">
+   
 </div>
